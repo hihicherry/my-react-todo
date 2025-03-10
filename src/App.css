@@ -5,8 +5,8 @@
 }
 
 body {
-    background: rgb(138, 173, 236);
-    color: white;
+    background:white;
+    color: rgb(69, 62, 62);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,18 +16,18 @@ body {
 .wrapper {
     width: 450px;
     padding: 30px;
-    background-color: rgb(52, 77, 152);
+    background-color: rgb(241, 238, 232);
     border-radius: 5px;
     margin-top: 20px;
     text-align: center;
-
+    box-shadow: 3px 3px 3px rgb(177, 168, 168);
 }
 
 .create-form{
     height: 40px;
     width: 100%;
     margin: 25px 0px;
-    border: 1px solid rgb(63, 119, 222);
+    border: 1px solid rgb(75, 44, 35);
     display: flex;
 }
 
@@ -35,7 +35,8 @@ body {
     outline: none;
     border: none;
     background: none;
-    color: white;
+    color: rgb(42, 28, 28);
+    background-color: rgb(243, 237, 226);
     width: 100%;
     height: 100%;
     padding-left: 10px;
@@ -43,7 +44,7 @@ body {
 
 .create-form > button {
     border: none;
-    background-color: rgb(55, 127, 221);
+    background-color: rgb(74, 57, 57);
     color: white;
     width: 50px;
     height: 100%;
@@ -51,7 +52,7 @@ body {
 }
 
 .todo {
-    background: rgb(64, 124, 235);
+    background: rgb(159, 145, 131);
     height: 40px;
     padding: 10px;
     margin-top: 10px;
@@ -59,9 +60,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .completed {
     opacity: 0.4;
-    text-decoration: line-through 3px rgb(39, 68, 234);
+    text-decoration: line-through 3px rgb(76, 40, 40);
 }
